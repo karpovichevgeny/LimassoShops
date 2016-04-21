@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/select" />
+        android:text="t" />
     <Button
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -39,4 +39,24 @@
         android:text="Papantoniou"
         android:linksClickable="true"
         android:onClick="goToPapantoniou"></Button>
+    <Button
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:layout_width="match_parent"
+        android:id="@+id/button_Metro"
+        android:text="Metro"
+        android:linksClickable="true"
+        android:onClick="goToMetro"></Button>
+    <Button
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:layout_width="match_parent"
+        android:id="@+id/button_PopLife"
+        android:text="PopLife"
+        android:linksClickable="true"
+        android:onClick="goToPopLife"></Button>
     </LinearLayout>

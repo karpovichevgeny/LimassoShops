@@ -23,6 +23,14 @@ public class main extends Activity{
     {
         goToUrl("http://www.papantoniou.com.cy/Portals/0/Documents/Offers.pdf");
     }
+    public void goToMetro (View view)
+    {
+        goToUrl("http://www.metro.com.cy/uploads/default/files/metrospecialoffers.pdf");
+    }
+    public void goToPopLife (View view)
+    {
+        goToUrl("http://www.poplife.com.cy/poplife.pdf");
+    }
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
