@@ -6,9 +6,9 @@
     android:layout_height="fill_parent">
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="t" />
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Some sales" />
     <Button
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -59,4 +59,15 @@
         android:text="PopLife"
         android:linksClickable="true"
         android:onClick="goToPopLife"></Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:layout_width="match_parent"
+        android:id="@+id/button_NextActivity"
+        android:text="SomeOtherSales"
+        android:linksClickable="true"
+        android:onClick="goToNextActivity"></Button>
     </LinearLayout>
