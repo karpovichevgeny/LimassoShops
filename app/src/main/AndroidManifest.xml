@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:label="@string/title_activity_third"
+            android:parentActivityName=".main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.net.limassolshops.main" />
+        </activity>
     </application>
 
 </manifest>

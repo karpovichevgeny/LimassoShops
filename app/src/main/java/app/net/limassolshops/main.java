@@ -40,10 +40,11 @@ public class main extends Activity {
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
             }
-            public void goToNextActivity(View v)
+            public void goToNextActivity(View view)
             {
-                Intent intent = new Intent(getApplicationContext(), secondActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(main.this, ThirdActivity.class);
+//                startActivity(intent);
+                goToUrl("https://issuu.com/offerscy/docs");
             }
 
         }
